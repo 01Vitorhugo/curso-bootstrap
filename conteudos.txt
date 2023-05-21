@@ -1,0 +1,51 @@
+- BREAKPOINTS{
+    -   sÃO TAMANHOS DE TELAS ADPTAVEIS (MEDIA QUERY)
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+
+    São usados (-X){
+        EXEMPLO-- class="cointainer-md"{
+            ele vai respeitar o tamanho do (MD);
+        }
+    }
+}
+
+- GRID{
+    - Estrutura para criar layouts
+
+    São usados da seguinte forma--{
+        container > row > colunas;
+
+        Container = Abriga os elementoas;
+        Row = Determina as linhas; (Sempre tem 100% de largura)
+        Colunas = Dividir o container ate 12 partes;
+    }
+}
+
+- TAMANHOS DAS COLUNAS{
+    - Podemos ajustar os tamanhos da colunas{
+        É usado (col-3){
+            O numero é o tamanho das colunas que você quer;
+            (LEMBRANDO QUE O TAMANHO MAXIMO É 12 PARTES);
+        }
+    }
+
+}
+
+- LIMITANDO O NÚMERO DE COLUNAS{
+    - Podemos limitar a quantidade de colunas em uma ROW;
+    - A classe utilizada é ( row-cols-**(numero de cols))
+    - O grid sempre vai respeitar este número;
+}
+
+- ALINHAMENTO VERTICAL{
+    - As colunas dentro de uma row estão como flex-box;
+    - Podemos mudar isso com (align-items-end){
+        -- Alinha no fim da ROW;
+        -- Essa classe sempre tem que ficar no elemento PAI (ROW);
+    }
+}

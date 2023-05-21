@@ -17,8 +17,107 @@
 </head>
 <body>
     <h1>Seção de Layout</h1>
-    
     <button class="btn btn-primary">Clica aqui</button>
+
+    <!-- Class bootstrap que ja tem seus tamanhos expecificos (tem bordas) -->
+    <div class="container">
+        <p>Vitor Hugo</p>
+        <p>Vitor Hugo</p>
+        <p>Vitor Hugo</p>
+        <p>Vitor Hugo</p>
+    </div>
+    <!--  -->
+
+    <!-- Class bootstrap que ocupa 100% da area -->
+    <div class="container-fluid">
+        <p>Vitor Hugo</p>
+        <p>Vitor Hugo</p>
+        <p>Vitor Hugo</p>
+        <p>Vitor Hugo</p>
+    </div>
+    <!--  -->
+
+    <!-- Usando breakpoint -->
+    <div class="container-lg">
+        <p>Vitor Hugo</p>
+        <p>Vitor Hugo</p>
+        <p>Vitor Hugo</p>
+        <p>Vitor Hugo</p>
+    </div>
+    <!--  -->
+
+    <!-- Estrutura de GRID -->
+    <div class="container">
+        <div class="row">
+            <div class="col">Produto A</div>
+            <div class="col">Produto B</div>
+        </div>
+        <div class="row">
+            <div class="col">Produto C</div>
+            <div class="col">Produto D</div>
+            <div class="col">Produto E</div>
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- Tamanhos das colunas --- uma linha tem tamanho de 12, as colunas nao pode passar disso -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-11"></div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+    <div class="container" id="largura-limitada">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- Limitação de colunas -->
+    <div class="container">
+        <div class="row row-cols-2">
+            <div class="col">Vitor</div>
+            <div class="col">Hugo</div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col">Gustavo</div>
+            <div class="col">Henrique</div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col">Pedro</div>
+            <div class="col">João</div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col">Kaique</div>
+            <div class="col">Kleber</div>
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- Alinhamento vertical -->
+    <div class="container" id="vertical">
+        <div class="row align-items-center">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+
+
+
+
     
 </body>
 </html>

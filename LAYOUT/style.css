@@ -2,3 +2,53 @@
     background-color: brown;
     border: none;
 }
+.container{
+    background-color: #999;
+}
+.container-fluid{
+    background-color: #888;
+}
+.container-lg{
+    border: 3px solid black;
+    margin-bottom: 30px;
+}
+
+/* GRID */
+
+.container{
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.row{
+    border: 5px solid red;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+.col,
+.col-4,
+.col-2,
+.col-1,
+.col-11,
+.col-6{
+    border: 2px dotted yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#largura-limitada{
+    max-width: 500px;
+}
+
+/* Alinhamento vertical */
+#vertical{
+    height: 300px;
+    border-color: brown;
+}
+#vertical .row{
+    height: 100%;
+}
+.col-6{
+    height: 50px;
+}
