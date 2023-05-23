@@ -42,10 +42,48 @@
     - O grid sempre vai respeitar este número;
 }
 
-- ALINHAMENTO VERTICAL{
-    - As colunas dentro de uma row estão como flex-box;
-    - Podemos mudar isso com (align-items-end){
+- ALINHAMENTO {
+    - As colunas dentro de uma row estão como flex-box;    
+    1- VERTICAL{
+        - Podemos mudar isso com (align-items-end){
         -- Alinha no fim da ROW;
         -- Essa classe sempre tem que ficar no elemento PAI (ROW);
     }
+    }
+    
+    2- HORIZONTAL{
+        - Podemos mudar isso com (align-items-end justify-content-center){
+            O elemento fica no centro da tela.
+        }
+
+    3- Alinhamento de Item{
+        - Podemos mudar isso com (align-self-end), (align-self-center){
+            -Usando em elementos expecificos como ROW.
+        }
+    }    
+
+
+
+    }
+
+- ORDEM DOS ITENS{
+        - É bastante usado no responsivo do site{
+            - Fica faciel de voce ajustar os elementos do jeito que voce quer{
+                -- é usado o (ORDER-*) * REPRESENTA O NUMERO DA ORDEM..
+            }
+        }
+    }
+
+-OFFSET - ESPAÇAMENTOS{
+    - Offset é espaçamentos com colunas{
+        -- quando tem colunas sem conteudos ou não vai ser usada, podemos usar como espaço.
+        -- É usado o (offset-md-*) * reprensenta a quantidade de colunas
+    }
+}
+
+-GUTTERS - INTERVALOS{
+    -     
+}
+
+
 }
